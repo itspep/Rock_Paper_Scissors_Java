@@ -14,12 +14,14 @@ public class TheGame{
             pcChoice = RandNum.nextInt(3) + 1;
             switch (pcChoice) {
                 case 1:
-                    System.out.println("Rock");
+                    System.out.println("I chose Rock");
                     break;
                 case 2:
-                    System.out.println("Papper");
+                    System.out.println("I chose Papper");
+                    break;
                 case 3:
-                    System.out.println("Scissors");
+                    System.out.println("I chose Scissors");
+                break;
             }
             if (userChoice == pcChoice) {
                 System.out.println("It is a draw");
